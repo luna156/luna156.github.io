@@ -1,8 +1,37 @@
 body{
   background-repeat : no-repeat;
   background-size : cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
+#input-box{
+  border-left-width:0;
+  border-right-width:0; 
+  border-top-width:0; 
+  border-bottom-width:1; 
+  border-color: white;
+  color: white;
+  font-size: large;
+  background: transparent;
+}
+
+input.list{
+  width: 400px;
+}
+
+
+#quote{
+  width: 700px;
+  font-size: 15px;
+}
+
+span.quote{
+  font-style:italic;
+  font-size: 20px;
+}
 
 .hidden {
     display: none;
